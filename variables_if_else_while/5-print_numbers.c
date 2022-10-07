@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Prints number from 1 to 10 .
+ * main - Prints number from 1 to 10 .
  *
  * Return: Always 0 (Success)
  */
