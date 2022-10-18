@@ -15,7 +15,7 @@ int prime(int p, int i)
 	if (!(p % i))
 		return (0);
 	else
-		return (prime(nb, i + 1));
+		return (prime(p, i + 1));
 }
 
 /**
