@@ -4,7 +4,7 @@
 /**
  * main - Prints all arguments
  * @argc: Integer
- * @argv Pointer
+ * @argv: Pointer
  *
  * Return: O (Success)
  */
