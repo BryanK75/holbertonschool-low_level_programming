@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- *  * more_numbers - Entry point
- *   *
- *    */
+ * more_numbers - Entry point
+ *
+ */
 void more_numbers(void)
 {
 	int index = 0;
