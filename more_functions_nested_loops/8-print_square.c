@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- *  * print_square - Entry point
- *   * @size: Number(s)
- *    *
- *     */
+ * print_square - Entry point
+ * @size: Number(s)
+ *
+ */
 void print_square(int size)
 {
 	if (size > 0)
