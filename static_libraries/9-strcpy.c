@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 
 }
