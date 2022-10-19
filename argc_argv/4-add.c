@@ -9,7 +9,7 @@
  *
  * Return: 0 (Success)
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, j, r = 0;
 
@@ -20,7 +20,7 @@ int main (int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		for (j=0; argv[i][j] != '\0'; j++)
+		for (j = 0; argv[i][j] != '\0'; j++)
 		{
 			if (argv[i][j] < 'z' && argv[i][j] > 'a')
 			{
