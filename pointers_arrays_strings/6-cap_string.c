@@ -42,7 +42,7 @@ char *cap_string(char *s)
 				s[i] -= 32;
 			if (s[j] == '"' || s[j] == '(' || s[j] == ')' || s[j] == '{' || s[j] == '}')
 				s[i] -= 32;							}
-										
+
 	}
 	return (s);
 }
