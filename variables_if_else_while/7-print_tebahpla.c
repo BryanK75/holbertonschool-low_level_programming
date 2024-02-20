@@ -7,11 +7,10 @@
 int main(void)
 {
 	int n;
-	char abc[26] = "abcdefghijklmnopqrstuvwxyz";
 	{
-		for (n = 27; n > 1; n--)
+		for (n = 122; n > 96; n--)
 		{
-			putchar (abc[n]);
+			putchar (n);
 		}
 		putchar ('\n');
 		return (0);
