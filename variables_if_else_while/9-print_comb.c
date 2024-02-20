@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints all single digit with a scpace and a coma between each numbers.
+ * main - Prints all single digit with a scpace and a coma between each numbers
  *
  * Return: Always 0.
  */
