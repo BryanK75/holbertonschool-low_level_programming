@@ -1,7 +1,7 @@
 #include "main.h"
 #include<stdio.h>
 /**
- * main - Prints the alphabet followed by a new line
+ * print_alphabet - Prints the alphabet followed by a new line
  *
  * Return: Always 0.
  */
@@ -10,7 +10,7 @@ void print_alphabet(void)
 	int i;
 	/*char c[26] = "abcdefghijklmnopqrstuvwxyz";*/
 	{
-		for (i = 96; i < 122; i++)
+		for (i = 97; i < 123; i++)
 		{
 			_putchar(i);
 		}
