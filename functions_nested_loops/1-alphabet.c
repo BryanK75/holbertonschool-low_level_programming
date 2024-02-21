@@ -8,7 +8,6 @@
 void print_alphabet(void)
 {
 	int i;
-	/*char c[26] = "abcdefghijklmnopqrstuvwxyz";*/
 	{
 		for (i = 97; i < 123; i++)
 		{
