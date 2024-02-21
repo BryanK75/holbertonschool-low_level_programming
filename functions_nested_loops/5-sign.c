@@ -3,7 +3,7 @@
 /**
  * print_sign - returns 1 if n > 0, returns 0 if n = 0 otherwise return -1.
  *
- * n : int
+ * @n : number
  *
  * Return: int
  */

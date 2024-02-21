@@ -2,6 +2,8 @@
 /**
  * _abs - Returns the absolute value of a number.
  *
+ * @n : number
+ *
  * Return: integer.
  */
 int _abs(int n)
