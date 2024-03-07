@@ -6,7 +6,7 @@
  * @s : character
  * @accept: character
  *
- * Return : unsigned integer
+ * Return: unsigned integer
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -33,5 +33,5 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 		s++;
 	}
-	return(sum);
+	return (sum);
 }
