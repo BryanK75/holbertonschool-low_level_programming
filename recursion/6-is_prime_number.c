@@ -3,6 +3,7 @@
 /**
  * is_prime - check the code
  * @n: integer
+ * @c: unsigned int
  * Return: integer
  */
 int is_prime(unsigned int n, unsigned int c)
