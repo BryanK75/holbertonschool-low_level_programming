@@ -3,19 +3,26 @@
 
 
 /**
- * reverse_array - Reverse content of an array
- * @a: array
- * @n: size array
- * Return: void
+ * _strcmp - Compare two string
+ * @s1: char
+ * @s2: char
+ * Return: (int)
  */
-void reverse_array(int *a, int n)
+int _strcmp(char *s1, char *s2)
 {
-	int i, tmp;
+	int i = 0, r;
 
-	for (i = 0; i < n / 2; i++)
+	if (s1 != s2)
 	{
-		tmp = a[i];
-		a[i] = a[n - 1 - i];
-		a[n - 1 - i] = tmp;
+		while (s1[i] != '\0' && s2[i] != '\0')
+		{
+			r = s1[i] - s2[i];
+			if (r != 0)
+			{
+				return (r);
+			}
+			i++;
+		}
 	}
+	return(0);
 }
